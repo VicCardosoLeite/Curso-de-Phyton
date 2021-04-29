@@ -1,5 +1,6 @@
-l=float(input('Qual a largura da sua parede? Resposta: '))
-a=float(input('Qual a altura da sua parede? Resposta: '))
-área= l*a
-tinta= área / 2
-print('Sua parede tem {}x{} e a área de {}m². E para pinta-la vai precisar de {}l de tinta'.format(l,a,área,tinta))
+lado = float(input('Qual a largura da sua parede? Resposta: '))
+altura = float(input('Qual a altura da sua parede? Resposta: '))
+área = lado * altura
+tinta = área / 2
+print(f'Sua parede de {lado}x{altura} tem {área}m² de área!')
+print(f'Para pinta-la vai precisar de {tinta}L de tinta!')

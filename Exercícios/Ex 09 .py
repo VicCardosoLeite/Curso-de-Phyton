@@ -1,5 +1,5 @@
 #Crie um programa que leia um número e mostre sua tabuada:
-número = int(input('Digite um número: '))
+número = int(input('Digite um número para ver sua tabuada: '))
 print('-=-'*20)
 print(f'{número} x {1:2} = {número * 1}')
 print(f'{número} x {2:2} = {número * 2}')
