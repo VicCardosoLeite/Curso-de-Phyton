@@ -1,10 +1,10 @@
-nome=input('Qual o seu nome?')
-print('Prazer em te conhecer{:=^20}!'.format(nome))
-n1=int(input('Um valor:'))
-n2=int(input('Outro valor:'))
-m=n1*n2
-d=n1/n2
-di=n1//n2
-e=n1**n2
-print('A soma é {}'.format(n1+n2), end=' ')
-print('a multiplicação é {},a divisão é {:.1f},a divisão inteira é {} e a potencia é {}'.format(m,d,di,e))
+#Faça um programa que leia algo e diga o maior número de informações sobre elas:
+algo = input('Digite algo: ')
+print(f'O tipo primitivo de {algo} é {type(algo)}')
+print(f'Só tem espaços? {algo.isspace()}')
+print(f'É um número {algo.isnumeric()}!')
+print(f'É alfabético? {algo.isalpha()}')
+print(f'É alfanumérico? {algo.isalnum()}')
+print(f'Está em maiúsculas? {algo.isupper()}')
+print((f'Está em minúsculas? {algo.islower()}'))
+print(f'Está capitalizada {algo.istitle()}')
