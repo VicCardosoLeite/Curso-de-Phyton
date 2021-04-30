@@ -1,20 +1,20 @@
 from random import randint
 from time import sleep
 compu = randint(0,10)
-print('\033[0;35m-=-\033[m'* 20)
+print('-=-'* 20)
 print('\033[0;32mVou pensar em um número entre 0 e 10. Tente adivinhar...\033[m')
-print('\033[0;35m-=-\033[m' * 20)
+print('-=-' * 20)
 sleep(1)
 a = False
-p = 0
+jogadas = 0
 while not a:
-    j = int(input('Em que número eu pensei? R: '))
-    p += 1
-    if j == compu:
+    jogador = int(input('Em que número eu pensei? R: '))
+    jogadas += 1
+    if jogador == compu:
         a = True
     else:
-        if j < compu:
+        if jogador < compu:
             print('Mais...Tente denovo!')
-        elif j > compu:
+        elif jogador > compu:
             print('Menos...Tente denovo!')
-print('Acertou com {} tentativas. Parabéns!!!'.format(p))
+print(f'Acertou com {jogadas} tentativas. Parabéns!!!')
