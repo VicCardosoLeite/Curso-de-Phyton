@@ -1,5 +1,6 @@
 #Teste
 from time import sleep
+soma = mult = 0
 print('-=-'*20)
 print('Bem vindo a calculadora super completa!')
 print('-=-'*20)
@@ -20,111 +21,18 @@ print('Processando...')
 sleep(2)
 print('')
 if select == 'a':
-    print('Bem vindo(a) ao mundo da soma!')
+    print('Ok, você selecionou soma!')
     print('')
-    print('Digite abaixo os número que você deseja somar: ')
-    print('(Caso números que eu pedir seja maior do que você deseja somar coloque 0)')
-    n1 = float(input('Número 1: '))
-    n2 = float(input('Número 2: '))
-    n3 = float(input('Número 3: '))
-    n4 = float(input('Número 4: '))
-    s = n1 + n2 + n3 + n4
+    quant = int(input('Quantos números você deseja somar: '))
+    for c in range(0,quant):
+        núm = float(input(f'Digite o {c+1}º número: '))
+        soma += núm
     print('Calculando...')
     sleep(3)
-    print('A soma entre os números digitados é {}'.format(s))
+    print(f'A soma entre os números digitados é {soma}')
 if select == 'b':
-    print('Bem vindo(a) ao mundo da multiplicação! ')
-    print ( '' )
-    print ( 'Digite abaixo os número que você deseja multiplicar: ' )
-    print ( '(Caso números que eu pedir seja maior do que você deseja multiplicar coloque 1)' )
-    n1 = float ( input ( 'Número 1: ' ) )
-    n2 = float ( input ( 'Número 2: ' ) )
-    n3 = float ( input ( 'Número 3: ' ) )
-    n4 = float ( input ( 'Número 4: ' ) )
-    p = n1 * n2 * n3 * n4
-    print ( 'Calculando...' )
-    sleep ( 3 )
-    print ( 'O produto entre os números digitados é {}'.format ( p ) )
-
-if select == 'c':
-    print('Bem vindo(a) ao mundo da divisão!')
-    print('')
-    print('Digite abaixo os números que você deseja dividir:')
-    n1 = float(input('Dividendo(número que fica na parte de cima da barra de divisão): '))
-    n2 = float(input('Divisor(número que fica na parte de baixo da barra de divisão): '))
-    d = n1 / n2
-    print('')
-    print('Calculando...')
-    sleep(3)
-    print('')
-    print('A divisão entre os números digitados é {}.'.format(d))
-if select == 'd':
-    print('Bem vindo(a) ao mundo da geometria plana!')
-    print('')
-    print('Legenda:')
-    print('t = triângulo')
-    print('q = quadrado')
-    print('c = círculo')
-    print('tr= trapézio')
-    print('l = losango')
-    print('')
-    f= input('Qual figura você deseja calcular? R: ')
-    if f == 't':
-        print('')
-        print('Ok, você selecionou o triângulo!')
-        print('')
-        print('Processando...')
-        sleep(3)
-        print('')
-        b = float(input('Informe a medida da base: '))
-        h = float(input('Informe a medida da altura: '))
-        a = b*h/2
-        print('Calculando...')
-        sleep(3)
-        print('')
-        print('A área do triângulo informado é {:.2f}cm².'.format(a))
-    if f == 'q':
-        print('')
-        print('Ok, você selecionou o quadrado')
-        print('')
-        print('Processando...')
-        sleep(3)
-        print('')
-        l = float(input('Informe qual a medida de um dos lados do quadrado. R:  '))
-        a = l**2
-        print('')
-        print('Calculando...')
-        print('')
-        sleep(3)
-        print('A área do quadrado informado é {:.2f}cm².'.format(a))
-    if f == 'c':
-        print('')
-        print ( 'Ok, você selecionou o círculo!' )
-        print('')
-        print('Processando...')
-        print('')
-        sleep(3)
-        r = float(input('Informe qual a medida do raio do círculo: '))
-        pi = float(input('Informe qual o valor de pi adotado: '))
-        a = pi*(r**2)
-        print('Calculando...')
-        print('')
-        sleep(3)
-        print('A área do círculo informado é {:.2f}'.format(a))
-    if f == 'tr':
-        print ( 'Ok, você selecionou o trapézio!' )
-        B = float(input('Informe a medida da base maior: '))
-        b = float(input('Informe a medida da base menor: '))
-        h = float(input('Informe a medida da altura: '))
-        a = B*b*h/2
-        print('A área do trapézio informado é de {}'.format(a))
-    if f == 'l':
-        print ( 'Ok, você selecionou o losango!' )
-        D = float(input('Informe a medida da diagonal maior: '))
-        d = float(input('Informe a medida da diagonal menor: '))
-        a = D*d/2
-        print('A área do losango informado é {:.2f}'.format(a))
-if select == 'e':
-    print('Bem vindo(a) ao mundo da geometria espacial!')
-if select == 'f':
-    print('Bem vindo ao mundo da tabuada!')
+    quant = int(input('Quantos números você deseja multiplicar: '))
+    for c in range(0,quant):
+        núm = float(input(f'Digite o {c+1}º número: '))
+        núm 
+    print(f'A multiplicação entre os números digitados foi {mult}')
