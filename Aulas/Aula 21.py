@@ -5,7 +5,7 @@
 #Ex: help(print)
 #Docstrings
 #Serve para criar um "manual" para a sua função
-#Para fazer um doc faz assim:
+#Para fazer um doc é assim:
 def cont(i,f,p):
     """
     -> Contagem:
