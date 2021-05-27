@@ -20,4 +20,4 @@ def situação_da_classe(* notas,situação = False):
 
 
 #Programa principal
-print(situação_da_classe(10,9.5,8.7,5.7,situação=True))
+print(situação_da_classe(10,9.7,8.4,3.7,5.6,situação=True))
