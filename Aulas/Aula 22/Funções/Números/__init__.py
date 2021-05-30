@@ -5,7 +5,7 @@ def fatorial(n):
     return f
 
 def dobro(núm):
-    return núm*2
+    return núm * 2
 
 def triplo(número):
     return número * 3
