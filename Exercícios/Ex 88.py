@@ -1,10 +1,11 @@
-#Faça um programa que faça n jogos da mega sena, cadastrando os números em uma lista:
+#Faça um programa que faça n jogos da megasena, 
+#cadastrando os números em uma lista:
 from random import randint
 from time import sleep
 lista = list()
 jogos = list()
 print('-=-'*20)
-print(                        'MEGA SENA'                         )
+print('MEGA SENA')
 print('-=-'*20)
 quant = int(input('Quantos jogos você quer fazer? R: '))
 print('')
