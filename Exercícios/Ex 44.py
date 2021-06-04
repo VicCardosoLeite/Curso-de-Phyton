@@ -30,9 +30,7 @@ elif select == 4:
     par = int(input('Quantas parcelas? R: '))
     t = p + (p * 20 / 100)
     final = t / par
-    print('Sua compra será parcelada em {}x(com juros)')
+    print('Sua compra será parcelada em {}x(com juros)'.format(par))
     print('Ficando R${:.2f} cada parcela e R${:.2f}(com os juros) no final. Obrigada e volte sempre!'.format(par,final,t))
 else:
     print('Opção inválida, tente novamente!!')
-
-

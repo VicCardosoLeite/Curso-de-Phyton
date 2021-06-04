@@ -9,3 +9,4 @@ print('Calculando...')
 sleep(3)
 print('')
 print('Seu novo salário é {:.2f}.'.format(novo))
+"4"
