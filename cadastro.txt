@@ -1,0 +1,7 @@
+Maria;24
+Heitor;17
+Kiko;39
+Byanca;23
+Victória;19
+Kaio;27
+Nina;14
