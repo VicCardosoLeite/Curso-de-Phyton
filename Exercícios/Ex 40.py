@@ -2,7 +2,7 @@ from math import ceil
 from time import sleep
 print('Seja bem vindo(a) ao calculador de média, primeiro preciso saber o seu nome')
 print('')
-nome=input('Nome do aluno(a):')
+nome = str(input('Nome do aluno(a):'))
 print('Olá {}, agora me informe suas notas abaixo:'.format(nome))
 print('')
 n1=float(input('Digite a nota da 1 unidade:'))
